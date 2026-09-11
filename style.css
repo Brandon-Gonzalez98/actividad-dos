@@ -1,1 +1,47 @@
+body{
+    background-color: #f8fafc;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
+.Logo_y_titulo {
+    display: flex;
+}
+.Logo_y_titulo  .Logo{
+    margin: 16.915px;
+}
+
+.Logo {
+    border-radius: 100px;
+    background-color: #10b981;
+    height: 30px;
+    width: 30px;
+}
+   
+.Lista_menu { 
+    display: flex;
+    list-style-type: none ;
+}
+
+.Lista_menu li{ 
+    font-weight: 500;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.boton_registro {
+    margin: 19px 30px 19px 19px;
+    background-color: #10b981;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 32px;
+    font-weight: 800;
+    border: none;
+}
+
+.Main {
+    background-color: #e2e8f0;
+}
