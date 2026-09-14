@@ -1,17 +1,22 @@
 body{
-    background-color: #f8fafc;
+    background-color: #f1f5f8;
 }
 header {
     display: flex;
     justify-content: space-between;
     height: 55px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .Logo_y_titulo {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Logo_y_titulo  .Logo{
-    margin: 16.915px;
+    margin: 0px 10px;
 }
 
 .Logo {
@@ -24,6 +29,7 @@ header {
 .Lista_menu { 
     display: flex;
     list-style-type: none ;
+    margin: 0px;
 }
 
 .Lista_menu li{ 
@@ -33,7 +39,7 @@ header {
 }
 
 .boton_registro {
-    margin: 19px 30px 19px 19px;
+    margin: 0px;
     background-color: #10b981;
     border-radius: 5px;
     color: white;
@@ -41,10 +47,20 @@ header {
     height: 32px;
     font-weight: 800;
     border: none;
+    
+}
+
+.contenedor_Boton_registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .Main {
-    background-color: #e2e8f0;
+    background-color: #e6ecf4;
+    height: 800px;
+    border: #404041;
 }
 .Seccion1_main{
     display: flex;
@@ -52,6 +68,10 @@ header {
     padding: 15px;
 }
 
+.Card_1{
+    padding: 30px ;
+    width: 450px;
+}
 .boton_card_1 {
     background-color: #0f172a;
     color: #ffffff;
@@ -64,14 +84,14 @@ header {
 
 .Imagen1 {
     
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 290px;
     border-radius: 15px;
 }
 
 .Seccion2_main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .Seccion2_main img{
@@ -86,4 +106,9 @@ header {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #94a3b8;
 }
